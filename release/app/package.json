@@ -1,0 +1,18 @@
+{
+  "name": "utm-link-builder",
+  "version": "0.6.9",
+  "description": "A Customizable UTM Link Builder",
+  "license": "MIT",
+  "author": {
+    "name": "David G. Simmons",
+    "email": "davidgs@davidgs.com",
+    "url": "https://github.com/davidgs"
+  },
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "postinstall": "npm run electron-rebuild && npm run link-modules",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts"
+  },
+  "dependencies": {}
+}

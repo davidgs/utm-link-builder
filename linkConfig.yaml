@@ -1,0 +1,34 @@
+---
+RestrictBases: true
+value:
+- id: base-link
+  link: davidgs.com
+- id: base-tls
+  link: davidgs.com:443
+utm_campaign:
+  name: Group
+  value:
+  - DevRel
+  - Marketing
+  - Product
+  - Engineering
+  - CTO
+  - CEO
+utm_medium:
+  name: LinkType
+  value:
+  - Blog Post
+  - Twitter
+  - LinkedIn
+  - Facebook
+  - dev.to
+  - DZone
+  - Medium
+  - GitHub
+  - GitLab
+  - Stack Overflow
+  - Reddit
+  - Slack
+  - Discord
+  - Email
+  - Other
